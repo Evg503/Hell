@@ -1,0 +1,39 @@
+
+pattern matching
+create user specific operators (with priority)
+polymorphism, inheritance, incapsulation (and anti incapsulation)
+memory control by hand, by count links, by GC, by owning of object
+overloading
+overriding
+metaprogramming - templates/generics
+concepts/constreins for metaprogramming
+type выводимость
+exceptions and exceptions chain
+RAII
+lambdas/code blocks/closures
+coroutines (stackless/stackness)
+stack like list of stackframes (stackless?)
+async
+threads
+concurrency
+understand entity system
+memory mapped data reading
+internal compiler/code modification
+reflection
+infinite integers
+ready for functionality paradigm
+macro language but not ##include
+modules
+define function in function
+namespaces
+break ^n (fragile)
+break label;
+goto by dynamic labels
+call inline function over goto even call function dynamically
+introspection
+solver machine like prolog
+lazy && || and may be other ? ??
+`[global] shortname r tree.linear()[i].get_rectangle(Pos`:`:Absolute)
+
+
+continuations
