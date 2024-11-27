@@ -22,9 +22,9 @@ enable_testing()
 
 target_link_libraries(
     TestHell
-    
-  GTest::gtest_main
+    Lang
+    GTest::gtest_main
 )
 
-# include(GoogleTest)
-# gtest_discover_tests(ParcesTest)
+include(GoogleTest)
+gtest_discover_tests(TestHell)

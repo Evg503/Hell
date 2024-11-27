@@ -11,7 +11,11 @@ project(Hell
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(Hell Src/main.cpp)
 include_directories(./include)
 
+add_subdirectory(Src/language)
 add_subdirectory(Test)
+
+add_executable(Hell Src/main.cpp)
+target_link_libraries(Hell Lang)
+

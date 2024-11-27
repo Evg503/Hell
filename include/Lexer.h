@@ -13,21 +13,3 @@ public:
 private:
     /* data */
 };
-
-inline Lexer::Lexer(/* args */)
-{
-}
-
-inline Lexer::~Lexer()
-{
-}
-
-inline Lexer::Iterator Lexer::begin()
-{
-    return Lexer::Iterator();
-}
-
-inline Lexer::Iterator Lexer::end()
-{
-    return Iterator();
-}
