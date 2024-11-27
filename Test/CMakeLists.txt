@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.22)
 
-project(Hell 
+find_package(GTest REQUIRED)
+
+project(TestHell 
         VERSION 0.0.0.0
         HOMEPAGE_URL example.com/Hell
         LANGUAGES CXX C
@@ -11,7 +13,18 @@ project(Hell
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(Hell Src/main.cpp)
+add_executable(TestHell TestParser.cpp)
 include_directories(./include)
 
-add_subdirectory(Test)
+
+enable_testing()
+
+
+target_link_libraries(
+    TestHell
+    
+  GTest::gtest_main
+)
+
+# include(GoogleTest)
+# gtest_discover_tests(ParcesTest)

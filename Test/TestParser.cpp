@@ -1,10 +1,12 @@
-// #include <Lexer.h>
+#include <gtest/gtest.h>
 
-// void test0()
-// {
-// 	Lexer lexer("");
-// 	for(auto lex:lexer){
-// 		ASSERTFAIL("unxepected out");
-// 	}
-// 	ASSERTSUCCESS();
-// }
+#include <Lexer.h>
+
+TEST(baseSuite, test0)
+{
+	Lexer lexer;
+	for(auto lex:lexer){
+		EXPECT_FALSE("unxepected out");
+	}
+	EXPECT_TRUE(true);
+}

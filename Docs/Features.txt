@@ -35,5 +35,7 @@ solver machine like prolog
 lazy && || and may be other ? ??
 `[global] shortname r tree.linear()[i].get_rectangle(Pos`:`:Absolute)
 
+left/right/none assotiate of operators
+
 
 continuations
