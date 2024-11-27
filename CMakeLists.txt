@@ -16,6 +16,8 @@ include_directories(./include)
 add_subdirectory(Src/language)
 add_subdirectory(Test)
 
-add_executable(Hell Src/main.cpp)
-target_link_libraries(Hell Lang)
+set(CPP_SOURCE Src/main.cpp)
+
+add_executable(${PROJECT_NAME} ${CPP_SOURCE})
+target_link_libraries(${PROJECT_NAME} Lang)
 
