@@ -47,7 +47,6 @@ jobs:
     steps:
 
     - name: Install gtest manually
-      runs-on: ubuntu-latest
       run: sudo apt-get install libgtest-dev
 
     - uses: actions/checkout@v4
