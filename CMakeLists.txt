@@ -11,6 +11,8 @@ project(Hell
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+find_package(GTest REQUIRED)
+
 include_directories(./include)
 
 add_subdirectory(Src/language)
