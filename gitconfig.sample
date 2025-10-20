@@ -1,0 +1,29 @@
+user.email=evgeny.kochenyuk@gmail.com
+user.name=Evgeny
+color.diff=auto
+color.status=auto
+color.branch=auto
+alias.st=status
+alias.ci=commit
+alias.co=checkout
+alias.br=branch
+alias.df=diff
+alias.lg=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.up=pull --rebase -s resolve
+alias.cp=cherry-pick
+alias.cleanreset=!git checkout -f master && git reset --hard origin/master && git clean -f
+alias.ls=log --decorate=short
+alias.hist=log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short
+core.autocrlf=input
+core.editor=vim
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=git@github.com:Evg503/Hell.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+branch.master.vscode-merge-base=origin/master
+branch.master.gk-merge-base=origin/master
+pull.rebase=true
